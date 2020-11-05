@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/steam.logo.png" />
+    <link rel="stylesheet" type="text/css" href="steam.css" />
+    <title>Steam Sale</title>
+</head>
+
+<body>
+    <div id="my-particles">
+        <!-- switch do particlesJS -->
+
+        <div class="container">
+            <div class="particles-switch">
+                <input type="checkbox" name="particles-switch" class="particles-switch-checkbox" id="particles-switch"
+                    checked onclick="changeParticles()">
+                <label class="particles-switch-label" for="particles-switch">
+                    <span class="particles-switch-inner"></span>
+                    <span class="particles-switch-switch"></span>
+                </label>
+            </div>
+            <h1 class="slogan">Steam Autumn Sale</h1>
+            <h3>2020</h3>
+            <ul class="countdown-container">
+                <li class="countdown-el">
+                    <p class="counter" id="days"></p>
+                    <p class="counter-description">DIAS</p>
+                </li>
+                <li class="countdown-el">
+                    <p class="counter" id="hours"></p>
+                    <p class="counter-description">HORAS</p>
+                </li>
+                <li class="countdown-el">
+                    <p class="counter" id="minutes"></p>
+                    <p class="counter-description">MINUTOS</p>
+                </li>
+                <li class="countdown-el">
+                    <p class="counter" id="seconds"></p>
+                    <p class="counter-description">SEGUNDOS</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="steam.js"></script>
+    <script src="particulas.js"></script>
+
+</body>
+
+</html>
